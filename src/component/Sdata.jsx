@@ -23,14 +23,14 @@ const Sdata = [
   {
     id: 4,
     category: "manshoes",
-    img: "8.jpg",
+    img: "12.jpg",
     comp:"adidas",
     price: "21.00",
   },
   {
     id: 5,
     category: "manshoes",
-    img: "9.jpg",
+    img: "8.jpg",
     comp:"nike",
     price: "18.03",
   },
@@ -51,7 +51,7 @@ const Sdata = [
   {
     id: 8,
     category: "manshoes",
-    img: "12.jpg",
+    img: "9.jpg",
     comp:"adidas",
     price: "26.45",
   },

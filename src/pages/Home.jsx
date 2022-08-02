@@ -5,7 +5,7 @@ import Carousel from '../component/Carousel'
 
 const Home = () => {
   return (
-    <div>
+    <div >
     <Carousel/>
       <Gallary/>
       <Statistic/>

@@ -3,7 +3,7 @@ import Product from "./Product";
 import Sdata from "./Sdata";
 
 const Gallary = () => {
-  const [Cart, setCart] = useState();
+  // const [Cart, setCart] = useState([]);
 
   // const handleClick = (  comp, img, category, price) => {
   //   console.log( comp, img, category, price);
@@ -17,14 +17,16 @@ const Gallary = () => {
             <Product
               key={val.id}
               // item={val}
-              img={val.img}
               category={val.category}
+              img={val.img}
               comp={val.comp}
               price={val.price}
-              handleClick={
-                (id, comp, img, category, price) => 
-                console.log({index, comp, img, category, price})
-                }
+          
+              // handleClick={
+              //   (item) => {
+              //   Cart.push(item)
+              //   console.log("cart is g", Cart)}
+              //   }
             />
           ))}
         </div>
