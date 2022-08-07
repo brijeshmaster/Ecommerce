@@ -25,8 +25,9 @@ const addToCart = (comp, img, category, price ) =>{
           <Navbar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="Contact" element={<Contact />} />
-            <Route path="About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/About" element={<About />} />
+            {/* <Route path="/About/:id" element={<About />} /> */}
             <Route path="*" element={<Error />} />
           </Routes>
 
