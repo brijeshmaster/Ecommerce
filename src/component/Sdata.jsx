@@ -4,8 +4,8 @@ const Sdata = [
     category: "manshoes",
     img: "5.jpg",
     comp:"nike",
-    price: "27.11",
-  },
+    price: "28"
+    },
   {
     id: 2,
     category: "manshoes",

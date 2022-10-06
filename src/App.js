@@ -23,6 +23,7 @@ const addToCart = (comp, img, category, price ) =>{
       <CartContext.Provider value={{Items,addToCart}}>
         <BrowserRouter>
           <Navbar />
+        
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Contact" element={<Contact />} />

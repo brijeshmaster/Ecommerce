@@ -13,7 +13,7 @@ const {addToCart} = useContext(CartContext)
         <a href="x" className="block relative h-48 rounded overflow-hidden">
           <img
             alt="ecommerce"
-            className="object-cover object-center w-full h-full block cursor-pointer "
+            className="object-contain object-center w-full h-full block cursor-pointer "
             src={img}
           />
         </a>

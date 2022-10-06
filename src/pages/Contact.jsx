@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from 'react-router-dom'
 
 const Contact = () => {
   return (
@@ -9,7 +10,7 @@ const Contact = () => {
   
             <div className="mapouter">
               <div className="gmap_canvas">
-                <iframe
+                <iframe title="myimage"
                   width={1080}
                   height={600}
                   id="gmap_canvas"
@@ -44,9 +45,9 @@ const Contact = () => {
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a className="text-indigo-500 leading-relaxed">
+                <NavLink className="text-indigo-500 leading-relaxed">
                   brijeshkumarmaisuriya@gmail.com
-                </a>
+                </NavLink>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
